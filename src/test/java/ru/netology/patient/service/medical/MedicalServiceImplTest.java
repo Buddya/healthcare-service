@@ -1,3 +1,4 @@
+package ru.netology.patient.service.medical;
 
 import org.junit.jupiter.api.Test;
 import org.mockito.ArgumentCaptor;
@@ -7,8 +8,6 @@ import ru.netology.patient.entity.HealthInfo;
 import ru.netology.patient.entity.PatientInfo;
 import ru.netology.patient.repository.PatientInfoRepository;
 import ru.netology.patient.service.alert.SendAlertService;
-import ru.netology.patient.service.medical.MedicalService;
-import ru.netology.patient.service.medical.MedicalServiceImpl;
 
 import java.math.BigDecimal;
 
